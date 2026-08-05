@@ -1,0 +1,36 @@
+C51 COMPILER V9.60.7.0   MAIN12                                                            08/05/2026 18:40:42 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN12
+OBJECT MODULE PLACED IN .\Objects\main12.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main12.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in12.lst) TABS(2) OBJECT(.\Objects\main12.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          
+   3          unsigned int num1 = 300;
+   4          unsigned int num2 = 200;
+   5          unsigned long result;
+   6          
+   7          void main()
+   8          {
+   9   1          result = (unsigned long)num1 * num2;
+  10   1      
+  11   1          while(1);
+  12   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     21    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      8    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
